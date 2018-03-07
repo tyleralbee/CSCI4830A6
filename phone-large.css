@@ -1,7 +1,8 @@
 .tabBar {
+    color :#F5FFFA;
     overflow: hidden;
     border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    background-color: #000000;
 }
 
 .tabBar button {
@@ -15,42 +16,42 @@
 }
 
 .tabBar button:hover {
-    background-color: #ddd;
+    background-color: #D3D3D3;
 }
 
 .tabBar button.active {
-    background-color: #ccc;
+    background-color: #A9A9A9;
 }
 
 .tabcontent {
     display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
+    padding: 12px 24px;
+    border: 2px solid #ccc;
     border-top: none;
 }
 
 .number {
-  padding: 24px 48px;
+  padding: 48px 96px;
 }
 
 .dialOrClear{
-  padding: 24px 64px;
+  padding: 48px 128px;
 }
 
 .clearButton{
-  padding: 24px 64px;
+  padding: 48px 128px;
 }
 
 .contactName{
-  padding: 18px 32px;
+  padding: 36px 64px;
 }
 
 .dialerInput{
-  padding: 10px 80px; 
+  padding: 20px 160px; 
 }
 
 .contactAdd{
-  padding: 12px 54px;
+  padding: 24px 108px;
   
 
 }
