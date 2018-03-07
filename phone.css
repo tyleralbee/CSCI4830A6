@@ -1,0 +1,57 @@
+.tabBar {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.tabBar button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 24px 48px;
+    transition: 0.3s;
+}
+
+.tabBar button:hover {
+    background-color: #ddd;
+}
+
+.tabBar button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.number {
+  padding: 24px 48px;
+}
+
+.dialOrClear{
+  padding: 24px 64px;
+}
+
+.clearButton{
+  padding: 24px 64px;
+}
+
+.contactName{
+  padding: 18px 32px;
+}
+
+.dialerInput{
+  padding: 10px 80px; 
+}
+
+.contactAdd{
+  padding: 12px 54px;
+  
+
+}
+
