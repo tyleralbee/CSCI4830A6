@@ -1,0 +1,55 @@
+<html>
+ <head>
+  <title>Dialer UI</title>
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+  <link rel="stylesheet" href="phone.css">
+ </head>
+ <body>  
+  <div class="tabBar" id="mainTabBar"> 
+   <button class="tablinks" onclick="openTab(event, 'dialer')">Dialer</button>
+   <button class="tablinks" onclick="openTab(event, 'contacts')">Contact List</button>
+   <button class="tablinks" onclick="openTab(event, 'addContact')">Add Contact</button>
+   <button class="tablinks" onclick="openTab(event, 'testGestures')">Test Gestures</button>
+  </div>
+<div id="dialer" class="tabcontent">
+  <h3>Dialer</h3>
+    <p><input class="dialerInput" id="dialInput"/></p>
+  <p><button class="number" onclick="dialNumber(event, '1')" id="1">1</button>       <button class="number" id="2">2</button>
+  <button class="number" id="3">3</button>
+  <p><button class="number" id="4">4</button>       <button class="number" id="5">5</button>
+  <button class="number" id="6">6</button>
+  <p><button class="number" id="7">7</button>       <button class="number" id="8">8</button>
+  <button class="number" id="9">9</button>
+  <p><button class="number" id="*">*</button>       <button class="number" id="0">0</button>
+  <button class="number" id="#">#</button>
+  <p><button class="clearButton" id="dial" >Dial</button>       <button class="clearButton" id="clear">Clear</button>
+</p>
+</div>
+
+<div id="contacts" class="tabcontent">
+  <h3>Contact List</h3>
+  <p><button class="contactName" >Tyler Albee</button>   <button class="contactName" >Jacob Dearing</button>
+  <button class="contactName" >Andrea Albee</button>
+  <p><button class="contactName" >Jeff Albee</button>   <button class="contactName" >Patricia Mitchell</button>
+  <button class="contactName" >Travis Albee</button></div>
+
+<div id="addContact" class="tabcontent">
+  <h3>Add Contact</h3>
+  <p>Name</p>
+
+  <p><input class="contactAdd" id="idName"placeholder="Name"/></p>
+    <p>Phone Number</p>
+
+  <p><input class="contactAdd" id="idName"placeholder="Phone Number"/></p>
+    <p>Email Address</p>
+
+  <input class="contactAdd" id="idName" placeholder="Email Address"/>
+
+  <p><button class="dialOrClear" >Add Contact</button>       <button class="dialOrClear" >Clear</button>
+</p>
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="phone.js"></script>
+ </body>
+</html>
